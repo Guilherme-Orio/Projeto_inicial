@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font-size: 3rem;
+
+}
+.button{
+    width: 100%;
+    font-size: 1.5rem;
+
+}
+.container-imc{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(46, 130, 60);
+    border-radius: 20px;
+    max-width: 400px;
+}
+.card-altura, .card-peso, .card-resultado{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+#resultado{
+    font-size: 1.5rem;
+    height: 200px;
+    width: 100%;
+}
+#peso{
+    width: 100%;
+}
+#altura{
+    width: 100%;
+}
+
